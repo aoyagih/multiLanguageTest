@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "サーバー上のテキスト"; ObjectID = "3ya-XO-UGo"; */
+"3ya-XO-UGo.text" = "サーバー上のテキスト";
+
+/* Class = "UILabel"; text = "言語切り替え"; ObjectID = "BPj-Yj-hdH"; */
+"BPj-Yj-hdH.text" = "言語切り替え";
+
+/* Class = "UILabel"; text = "サーバー上の画像"; ObjectID = "J5t-dI-7aD"; */
+"J5t-dI-7aD.text" = "サーバー上の画像";
+
+/* Class = "UILabel"; text = "ローカル上のテキスト"; ObjectID = "LPG-1H-CBK"; */
+"LPG-1H-CBK.text" = "ローカル上のテキスト";
+
+/* Class = "UIButton"; normalTitle = "Show Alert"; ObjectID = "YC8-Js-7qv"; */
+"YC8-Js-7qv.normalTitle" = "Show Alert";
+
+/* Class = "UILabel"; text = "ローカル上の画像"; ObjectID = "fWh-vL-qbz"; */
+"fWh-vL-qbz.text" = "ローカル上の画像";
+
+/* Class = "UISegmentedControl"; jdd-zM-OC4.segmentTitles[0] = "日本語"; ObjectID = "jdd-zM-OC4"; */
+"jdd-zM-OC4.segmentTitles[0]" = "日本語";
+
+/* Class = "UISegmentedControl"; jdd-zM-OC4.segmentTitles[1] = "English"; ObjectID = "jdd-zM-OC4"; */
+"jdd-zM-OC4.segmentTitles[1]" = "English";

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  multiLanguageTest
+
+  Created by Aoyagi Hiroki on 2020/04/23.
+  Copyright © 2020 Aoyagi Hiroki. All rights reserved.
+*/
+"local_text" = "ローカル上のテキスト";
+"local_image_text" = "ローカル上の画像";
+"server_image_text" = "サーバー上の画像";

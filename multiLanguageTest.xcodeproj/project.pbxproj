@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,15 @@
 		D1793E312449F7F8006A0DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1793E2F2449F7F8006A0DC7 /* Main.storyboard */; };
 		D1793E332449F7FC006A0DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1793E322449F7FC006A0DC7 /* Assets.xcassets */; };
 		D1793E362449F7FC006A0DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1793E342449F7FC006A0DC7 /* LaunchScreen.storyboard */; };
+		D1793E3E244A17D9006A0DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1793E3D244A17D9006A0DC7 /* GoogleService-Info.plist */; };
+		D1793E6524515039006A0DC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1793E6724515039006A0DC7 /* Localizable.strings */; };
+		D51FC14AE9C32C1A3634D180 /* Pods_multiLanguageTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6458B02682A6A6F0D91AFA79 /* Pods_multiLanguageTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4785C9AE24C5F4AA4592363A /* Pods-multiLanguageTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiLanguageTest.release.xcconfig"; path = "Target Support Files/Pods-multiLanguageTest/Pods-multiLanguageTest.release.xcconfig"; sourceTree = "<group>"; };
+		6458B02682A6A6F0D91AFA79 /* Pods_multiLanguageTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiLanguageTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E757C55ECC64BCD82200FA /* Pods-multiLanguageTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiLanguageTest.debug.xcconfig"; path = "Target Support Files/Pods-multiLanguageTest/Pods-multiLanguageTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D1793E262449F7F8006A0DC7 /* multiLanguageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiLanguageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1793E292449F7F8006A0DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1793E2B2449F7F8006A0DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		D1793E322449F7FC006A0DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1793E352449F7FC006A0DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1793E372449F7FC006A0DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1793E3D244A17D9006A0DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1793E5F24514F8D006A0DC7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		D1793E6024514F8D006A0DC7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D1793E6624515039006A0DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D1793E682451503C006A0DC7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D1793E6924515272006A0DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51FC14AE9C32C1A3634D180 /* Pods_multiLanguageTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36D91C1ABA87755C66563B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6458B02682A6A6F0D91AFA79 /* Pods_multiLanguageTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAD3C6115A865686578E51B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4E757C55ECC64BCD82200FA /* Pods-multiLanguageTest.debug.xcconfig */,
+				4785C9AE24C5F4AA4592363A /* Pods-multiLanguageTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1793E1D2449F7F8006A0DC7 = {
 			isa = PBXGroup;
 			children = (
 				D1793E282449F7F8006A0DC7 /* multiLanguageTest */,
 				D1793E272449F7F8006A0DC7 /* Products */,
+				4CAD3C6115A865686578E51B /* Pods */,
+				36D91C1ABA87755C66563B0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +90,13 @@
 			children = (
 				D1793E292449F7F8006A0DC7 /* AppDelegate.swift */,
 				D1793E2B2449F7F8006A0DC7 /* SceneDelegate.swift */,
+				D1793E6724515039006A0DC7 /* Localizable.strings */,
 				D1793E2D2449F7F8006A0DC7 /* ViewController.swift */,
 				D1793E2F2449F7F8006A0DC7 /* Main.storyboard */,
 				D1793E322449F7FC006A0DC7 /* Assets.xcassets */,
 				D1793E342449F7FC006A0DC7 /* LaunchScreen.storyboard */,
 				D1793E372449F7FC006A0DC7 /* Info.plist */,
+				D1793E3D244A17D9006A0DC7 /* GoogleService-Info.plist */,
 			);
 			path = multiLanguageTest;
 			sourceTree = "<group>";
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1793E3A2449F7FC006A0DC7 /* Build configuration list for PBXNativeTarget "multiLanguageTest" */;
 			buildPhases = (
+				C63928745234665A75EA6F3B /* [CP] Check Pods Manifest.lock */,
 				D1793E222449F7F8006A0DC7 /* Sources */,
 				D1793E232449F7F8006A0DC7 /* Frameworks */,
 				D1793E242449F7F8006A0DC7 /* Resources */,
+				14354CE6C8FE7471C0807D3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +145,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = D1793E1D2449F7F8006A0DC7;
 			productRefGroup = D1793E272449F7F8006A0DC7 /* Products */;
@@ -125,13 +162,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1793E6524515039006A0DC7 /* Localizable.strings in Resources */,
 				D1793E362449F7FC006A0DC7 /* LaunchScreen.storyboard in Resources */,
+				D1793E3E244A17D9006A0DC7 /* GoogleService-Info.plist in Resources */,
 				D1793E332449F7FC006A0DC7 /* Assets.xcassets in Resources */,
 				D1793E312449F7F8006A0DC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14354CE6C8FE7471C0807D3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiLanguageTest/Pods-multiLanguageTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiLanguageTest/Pods-multiLanguageTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multiLanguageTest/Pods-multiLanguageTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63928745234665A75EA6F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multiLanguageTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1793E222449F7F8006A0DC7 /* Sources */ = {
@@ -151,6 +232,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D1793E302449F7F8006A0DC7 /* Base */,
+				D1793E5F24514F8D006A0DC7 /* ja */,
+				D1793E6924515272006A0DC7 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +242,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D1793E352449F7FC006A0DC7 /* Base */,
+				D1793E6024514F8D006A0DC7 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D1793E6724515039006A0DC7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1793E6624515039006A0DC7 /* en */,
+				D1793E682451503C006A0DC7 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,6 +377,7 @@
 		};
 		D1793E3B2449F7FC006A0DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E757C55ECC64BCD82200FA /* Pods-multiLanguageTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +396,7 @@
 		};
 		D1793E3C2449F7FC006A0DC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4785C9AE24C5F4AA4592363A /* Pods-multiLanguageTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
