@@ -8,6 +8,9 @@ This app changes languages(Japanese⇔English) depending on language setting of 
 - ローカル上の画像
 - サーバー上の画像(Firebase/Storage)
 
+・日本語版のスクリーンショットは[こちら](https://user-images.githubusercontent.com/42233190/80663903-47c2c980-8ad0-11ea-8e19-8a85bf971c81.png)  
+・English version screenshot is [here](https://user-images.githubusercontent.com/42233190/80663909-4b565080-8ad0-11ea-883e-8ad882a8d319.png)  
+
 ### 切り替え方法  
 - ローカル上のテキスト  
 (1)を参考に、"Localizable.strings"ファイルを作成し、切り替えたいテキストに対してそれぞれ辞書`"key" = "value";`を定義する。  (注意: Localizable.stringsの各行末にはセミコロンが必要！)  
